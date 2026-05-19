@@ -10,14 +10,14 @@ const imagem = document.getElementById('imagem')
 
 const imagens = {
 
-    "beijos ilimitados": "/static/imagens/beijos ilimitados.png",
+    "beijos123": "/static/imagens/beijos ilimitados.png",
     "bjdemorado901": "/static/imagens/beijo demorado.png",
-    "cafune": "/static/imagens/cafune.png",
-    "cineminha": "/static/imagens/cineminha.png",
-    "cozinhar": "/static/imagens/cozinhar.png",
-    "date": "/static/imagens/date.png",
-    "dormir": "/static/imagens/dormir.png",
-    "filme": "/static/imagens/filme.png"
+    "cafuné678": "/static/imagens/cafune.png",
+    "cineminha234": "/static/imagens/cineminha.png",
+    "cozinhar345": "/static/imagens/cozinhar.png",
+    "date789": "/static/imagens/date.png",
+    "dormir012": "/static/imagens/dormir.png",
+    "filme456": "/static/imagens/filme.png"
 
 
 }
