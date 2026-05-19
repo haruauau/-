@@ -38,7 +38,7 @@ navigator.mediaDevices.getUserMedia({
 
             if (result) {
 
-                const codigo = result.text
+                const codigo = result.text.trim().toLowerCase();
 
                 codigoTexto.innerText = `Código: ${codigo}`
 
