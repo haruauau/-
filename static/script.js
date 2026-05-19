@@ -16,7 +16,7 @@ const imagens = {
     "cineminha234": "/static/imagens/cineminha.png",
     "cozinhar345": "/static/imagens/cozinhar.png",
     "date789": "/static/imagens/date.png",
-    "dormir012": "/static/imagens/dormir.png",
+    "dormir012": "/static/imagens/dormirag.png",
     "filme456": "/static/imagens/filme.png"
 
 
