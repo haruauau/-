@@ -10,9 +10,9 @@ const imagem = document.getElementById('imagem')
 
 const imagens = {
 
-    "beijos123": "/static/imagens/beijos ilimitados.png",
+    "beijos123": "/static/imagens/beijos_ilimitados.png",
     "bjdemorado901": "/static/imagens/beijo demorado.png",
-    "cafuné678": "/static/imagens/cafune.png",
+    "cafune678": "/static/imagens/cafune.png",
     "cineminha234": "/static/imagens/cineminha.png",
     "cozinhar345": "/static/imagens/cozinhar.png",
     "date789": "/static/imagens/date.png",
