@@ -47,6 +47,10 @@ navigator.mediaDevices.getUserMedia({
                     imagem.src = imagens[codigo]
 
                     imagem.style.display = 'block'
+
+                    document.getElementById("botoes").style.display = "block"
+
+    document.querySelector("video").style.display = "none"
                 }
             }
 
@@ -63,3 +67,20 @@ navigator.mediaDevices.getUserMedia({
 
     alert("Erro ao acessar câmera")
 })
+function aceitarCupom() {
+
+    document.getElementById("botoes").style.display = "none"
+
+    document.getElementById("mensagemFinal").style.display = "block"
+}
+
+function reiniciarScanner() {
+
+    imagem.style.display = "none"
+
+    document.getElementById("botoes").style.display = "none"
+
+    document.getElementById("mensagemFinal").style.display = "none"
+
+    document.querySelector("video").style.display = "block"
+}

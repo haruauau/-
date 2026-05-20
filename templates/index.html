@@ -20,12 +20,32 @@
         <video id="video" width="400" height="300"></video>
 
         <div class="resultado">
-            <h2 id="codigo">Aguardando leitura...</h2>
 
-            <img id="imagem" src="" alt="Imagem" style="display:none;">
-        </div>
+    <h2 id="codigo">Aguardando leitura...</h2>
+
+    <img id="imagem" src="" alt="Imagem" style="display:none;">
+
+    <div id="botoes" style="display: none;">
+
+        <button onclick="aceitarCupom()">
+            💖 Aceitar
+        </button>
+
+        <button onclick="reiniciarScanner()">
+            🔄 Tentar novamente
+        </button>
 
     </div>
+
+    <div id="mensagemFinal" style="display: none;">
+
+        <h2>Parabéns! 💖</h2>
+
+        <p>Já pode aproveitar seu vale ✨</p>
+
+    </div>
+
+</div>
 
 <script src="{{ url_for('static', filename='script.js') }}"></script>
 
