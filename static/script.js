@@ -40,7 +40,6 @@ navigator.mediaDevices.getUserMedia({
 
                 const codigo = result.text.trim().toLowerCase();
 
-                codigoTexto.innerText = `Código: ${codigo}`
 
                 if (imagens[codigo]) {
 

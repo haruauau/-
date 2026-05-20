@@ -103,7 +103,36 @@ button:hover {
 
     margin-top: 30px;
 
-    font-size: 24px;
+    background: rgba(255, 105, 180, 0.25);
+
+    border: 2px solid #ff69b4;
+
+    border-radius: 25px;
+
+    padding: 25px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
 
     color: white;
+
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+}#mensagemFinal h2 {
+
+    color: #ffb6e6;
+
+    font-size: 32px;
+
+    margin-bottom: 10px;
+}
+
+#mensagemFinal p {
+
+    color: white;
+
+    font-size: 20px;
 }
